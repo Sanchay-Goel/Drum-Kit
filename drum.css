@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#whole {
+    /* The image used */
+    background-image: url("drum.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 4px black solid;
+
+}
+#main{
+	
+	height: 100%;
+
+}
+#row1{
+	height: 149.4px;
+	margin-top: 298.8px;
+	margin-bottom: 298.8px;
+	
+	
+}
+
+.keys{
+	border: 2px solid white;
+	width: 9%;
+	margin-bottom: 3%;
+	margin-left: 1.9%;
+	margin-top: 3%;
+	color: white;
+	transition: all 0.09s;
+	text-align: center;
+	background-color: rgba(0,0,0,.004);
+}
+.playing{
+	transform: scale(1.1);
+	border-color: #ffc600;
+	box-shadow: 0 0 10px #ffc600;
+}
+#kbd{
+	font-size: 200%;
+	
+	background-color: rgba(0,0,0,.004);
+	display: block;
+	padding-left: 30%;
+	height: 60%;
+	padding-top: 0;
+
+}
+.sound {
+  font-size: small;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+  align-content: center;
+  text-align: center;
+
+}
+#footer{
+	text-align: center;
+
+}
